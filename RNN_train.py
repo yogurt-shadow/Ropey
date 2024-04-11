@@ -1,8 +1,8 @@
 import torch
 from torch.utils.tensorboard import SummaryWriter
-from Doping.pytorchtreelstm.treelstm import TreeLSTM, calculate_evaluation_orders
-from Doping.utils.RNN_Dataset import DataObj
-from Doping.settings import MODEL_PATH, new_model_path
+from pytorchtreelstm.treelstm import TreeLSTM, calculate_evaluation_orders
+from utils.RNN_Dataset import DataObj
+from settings import MODEL_PATH, new_model_path
 from RNN_model import RNNModel
 import json
 import os
@@ -12,8 +12,8 @@ import random
 import logging
 from tqdm import tqdm
 import matplotlib.pyplot as plt
-import Doping.utils.utils as Du
-from Doping.RNN_eval import evaluate, plot_tsne, plot_weight_tfboard
+import utils.utils as Du
+from RNN_eval import evaluate, plot_tsne, plot_weight_tfboard
 
 PRETRAIN_EPC = 100 #turn off the token emb for how many iterations?
 EARLY_STOPPING_COUNT = 5

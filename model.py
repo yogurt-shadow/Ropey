@@ -2,8 +2,8 @@ import torch
 # torch.set_default_tensor_type('torch.cuda.FloatTensor')
 import torch.nn as nn
 import torch.nn.functional as F
-from Doping.pytorchtreelstm.treelstm import TreeLSTM
-import Doping.pytorchtreelstm.treelstm.util as TLUtil
+from pytorchtreelstm.treelstm import TreeLSTM
+import pytorchtreelstm.treelstm.util as TLUtil
 class Model(torch.nn.Module):
     '''
     This model use h_c as a feature in h_a and h_b.

@@ -4,7 +4,7 @@ import argparse
 import random
 from shutil import copyfile
 from os.path import join as pjoin
-from constants import FALLBACK_SERVER, FALLBACK_CONFIG, DOPING_CONFIG
+from constants import FALLBACK_SERVER, FALLBACK_CONFIG, Ropey_CONFIG
 import logging
 import sys
 '''
@@ -81,13 +81,13 @@ def main():
         run_dataset_gen(pjoin(exp_folder, 'original'))
 
         run_training(pjoin(exp_folder, 'original'))
-        doping_server = start_server(pjoin(exp_folder, 'original', 'model.pt'))
+        Ropey_server = start_server(pjoin(exp_folder, 'original', 'model.pt'))
 
         for i in range(args.nvariants):
             run_spacer(pjoin(exp_folder, 'variant_{}'.format(str(i))),
                        FALLBACK_CONFIG)
             run_spacer(pjoin(exp_folder, 'variant_{}'.format(str(i))),
-                       DOPING_CONFIG)
-        doping_server.stop()
+                       Ropey_CONFIG)
+        Ropey_server.stop()
 
 

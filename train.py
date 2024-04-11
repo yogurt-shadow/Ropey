@@ -2,10 +2,10 @@ import torch
 import torch.nn as nn
 from torch.utils.tensorboard import SummaryWriter
 import z3
-from Doping.pytorchtreelstm.treelstm import TreeLSTM, calculate_evaluation_orders
-import Doping.utils.utils as Du
-from Doping.utils.Dataset import DataObj
-from Doping.settings import MODEL_PATH, new_model_path
+from pytorchtreelstm.treelstm import TreeLSTM, calculate_evaluation_orders
+import utils.utils as Du
+from utils.Dataset import DataObj
+from settings import MODEL_PATH, new_model_path
 from model import Model
 import json
 import os

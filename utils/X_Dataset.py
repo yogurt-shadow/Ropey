@@ -1,5 +1,5 @@
-import Doping.PySpacerSolver.utils as DPu
-from Doping.pytorchtreelstm.treelstm import batch_tree_input
+import PySpacerSolver.utils as DPu
+from pytorchtreelstm.treelstm import batch_tree_input
 import glob
 import json
 import torch
@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 import os
 import random
 import logging
-from Doping.utils.utils import calculate_P
+from utils.utils import calculate_P
 
 logging.getLogger().setLevel(logging.DEBUG)
 log = logging.getLogger(__name__)
@@ -228,7 +228,7 @@ class DataObj:
         return self.datafolder
 #test batching
 if __name__=="__main__":
-    dataObj = DataObj("/home/nv3le/workspace/Doping/PySpacerSolver/MEDIA/backward_encoded_split_on_relu.smt2_240220_23_54_17/ind_gen_files", train_size = 0.8, batch_size = 1024)
+    dataObj = DataObj("/home/nv3le/workspace/Ropey/PySpacerSolver/MEDIA/backward_encoded_split_on_relu.smt2_240220_23_54_17/ind_gen_files", train_size = 0.8, batch_size = 1024)
     train_set = set(dataObj.train_dps)
     test_set = set(dataObj.test_dps)
     intersection = train_set.intersection(test_set)

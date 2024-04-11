@@ -1,8 +1,8 @@
 import z3
 import json
 import torch
-from Doping.pytorchtreelstm.treelstm import calculate_evaluation_orders
-# from Doping.PySpacerSolver.utils import *
+from pytorchtreelstm.treelstm import calculate_evaluation_orders
+# from PySpacerSolver.utils import *
 import os
 import numpy as np
 import glob
@@ -114,7 +114,7 @@ def visualize_X(filename, key):
         ax.grid(color='w', linestyle='-', linewidth=1)
         plt.show()
 
-def parser_from_template(json_config_template = "/home/nle/workspace/Doping/exp_config_template.json"):
+def parser_from_template(json_config_template = "/home/wangzh/Ropey/exp_config_template.json"):
     with open(json_config_template, "r") as f:
         config_template = json.load(f)
     parser = argparse.ArgumentParser()

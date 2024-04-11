@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 import z3
-from Doping.pytorchtreelstm.treelstm import TreeLSTM, calculate_evaluation_orders
+from pytorchtreelstm.treelstm import TreeLSTM, calculate_evaluation_orders
 
-import Doping.utils.utils as Du
+import utils.utils as Du
 
 class Model(torch.nn.Module):
     def __init__(self, vocab_size, emb_dim = 10, tree_dim = 1):

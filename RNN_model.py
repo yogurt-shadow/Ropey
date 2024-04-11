@@ -2,10 +2,10 @@ import torch
 # torch.set_default_tensor_type('torch.cuda.FloatTensor')
 import torch.nn as nn
 import torch.nn.functional as F
-from Doping.pytorchtreelstm.treelstm import TreeLSTM
-import Doping.pytorchtreelstm.treelstm.util as TLUtil
-import Doping.utils.utils as Du
-from Doping.LemmaEncoder import LemmaEncoder
+from pytorchtreelstm.treelstm import TreeLSTM
+import pytorchtreelstm.treelstm.util as TLUtil
+import utils.utils as Du
+from LemmaEncoder import LemmaEncoder
 
 import logging
 class RNNModel(nn.Module):

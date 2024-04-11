@@ -1,5 +1,5 @@
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -120,7 +120,7 @@ Epoch 301
 Eval model
  None
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -239,7 +239,7 @@ I was trained with the configs:
 }
 Epoch 351
 train_portion = 1.0-> We are evaluating transfered models. Start evaluating variants...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
 3
 [[3 0]
  [0 3]]
@@ -261,7 +261,7 @@ counters {
   "wrong_ratio": 0.0,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
 1377
 [[1213  164]
  [ 366 1524]]
@@ -283,15 +283,15 @@ counters {
   "wrong_ratio": 0.20116194625998549,
   "eligable_ratio": 0.0007262164124909223
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 277, 1099, 1, 0.7981118373275236, 0.20116194625998549, 0.0007262164124909223, 2.2147406733393993, 3.0, 2.0);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 277, 1099, 1, 0.7981118373275236, 0.20116194625998549, 0.0007262164124909223, 2.2147406733393993, 3.0, 2.0);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 26
 [[31  0]
  [ 0 40]]
@@ -314,7 +314,7 @@ counters {
   "eligable_ratio": 0.0
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_0_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1405_01_07_31EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_0_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1405_01_07_31EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -433,7 +433,7 @@ I was trained with the configs:
 }
 Epoch 351
 train_portion = 1.0-> We are evaluating transfered models. Start evaluating variants...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
 3
 [[3 0]
  [0 3]]
@@ -455,7 +455,7 @@ counters {
   "wrong_ratio": 0.0,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
 1377
 [[1214  163]
  [ 169 1721]]
@@ -477,15 +477,15 @@ counters {
   "wrong_ratio": 0.12273057371096587,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_0_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1405_01_07_31EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 169, 1208, 0, 0.8772694262890341, 0.12273057371096587, 0.0, 2.2847682119205297, 3.0, -1);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_0_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1405_01_07_31EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 169, 1208, 0, 0.8772694262890341, 0.12273057371096587, 0.0, 2.2847682119205297, 3.0, -1);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 26
 [[31  0]
  [ 0 40]]
@@ -508,7 +508,7 @@ counters {
   "eligable_ratio": 0.0
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0805_15_16_12EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0805_15_16_12EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -627,7 +627,7 @@ I was trained with the configs:
 }
 Epoch 351
 train_portion = 1.0-> We are evaluating transfered models. Start evaluating variants...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
 3
 [[3 0]
  [0 3]]
@@ -649,7 +649,7 @@ counters {
   "wrong_ratio": 0.0,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
 1377
 [[1209  168]
  [ 599 1291]]
@@ -671,15 +671,15 @@ counters {
   "wrong_ratio": 0.3384168482207698,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0805_15_16_12EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 466, 911, 0, 0.6615831517792302, 0.3384168482207698, 0.0, 2.207464324917673, 2.6952789699570814, -1);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0805_15_16_12EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 466, 911, 0, 0.6615831517792302, 0.3384168482207698, 0.0, 2.207464324917673, 2.6952789699570814, -1);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 26
 [[31  0]
  [ 0 40]]
@@ -702,7 +702,7 @@ counters {
   "eligable_ratio": 0.0
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -821,7 +821,7 @@ I was trained with the configs:
 }
 Epoch 301
 train_portion < 1.0-> We are evaluating online mode. Start evaluating on test set...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 [[13  5]
  [ 9 19]]
 accuracy 0.6956521739130435
@@ -843,7 +843,7 @@ counters {
   "eligable_ratio": 0.13333333333333333
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -962,7 +962,7 @@ I was trained with the configs:
 }
 Epoch 301
 train_portion < 1.0-> We are evaluating online mode. Start evaluating on test set...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 [[13  5]
  [ 9 19]]
 accuracy 0.6956521739130435
@@ -984,7 +984,7 @@ counters {
   "eligable_ratio": 0.13333333333333333
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_0.5_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-0505_22_47_29EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -1103,7 +1103,7 @@ I was trained with the configs:
 }
 Epoch 301
 train_portion < 1.0-> We are evaluating online mode. Start evaluating on test set...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 [[13  5]
  [ 9 19]]
 accuracy 0.6956521739130435
@@ -1125,7 +1125,7 @@ counters {
   "eligable_ratio": 0.13333333333333333
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -1244,7 +1244,7 @@ I was trained with the configs:
 }
 Epoch 351
 train_portion = 1.0-> We are evaluating transfered models. Start evaluating variants...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
 3
 [[3 0]
  [0 3]]
@@ -1266,7 +1266,7 @@ counters {
   "wrong_ratio": 0.0,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
 1377
 [[1213  164]
  [ 366 1524]]
@@ -1288,15 +1288,15 @@ counters {
   "wrong_ratio": 0.20116194625998549,
   "eligable_ratio": 0.0007262164124909223
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 277, 1099, 1, 0.7981118373275236, 0.20116194625998549, 0.0007262164124909223, 2.2147406733393993, 3.0, 2.0);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('C_0_D_1_E_0_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1505_03_08_19EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 277, 1099, 1, 0.7981118373275236, 0.20116194625998549, 0.0007262164124909223, 2.2147406733393993, 3.0, 2.0);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 26
 [[31  0]
  [ 0 40]]
@@ -1319,7 +1319,7 @@ counters {
   "eligable_ratio": 0.0
 }
 Eval model
- /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder/models/NoConstEmb_C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1705_15_03_10EpochES.pt
+ /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder/models/NoConstEmb_C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1705_15_03_10EpochES.pt
 I was trained with the configs:
 {
   "input_folders": [
@@ -1438,7 +1438,7 @@ I was trained with the configs:
 }
 Epoch 351
 train_portion = 1.0-> We are evaluating transfered models. Start evaluating variants...
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e7_304.smt2.folder
 3
 [[3 0]
  [0 3]]
@@ -1460,7 +1460,7 @@ counters {
   "wrong_ratio": 0.0,
   "eligable_ratio": 0.0
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e1_448.smt2.folder
 1377
 [[1213  164]
  [ 169 1721]]
@@ -1482,15 +1482,15 @@ counters {
   "wrong_ratio": 0.12273057371096587,
   "eligable_ratio": 0.0007262164124909223
 }
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e8_371_e2_80.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('NoConstEmb_C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1705_15_03_10EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 169, 1207, 1, 0.8765432098765432, 0.12273057371096587, 0.0007262164124909223, 2.2850041425020713, 3.0, 2.0);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters_e3_140_e8_149.smt2.folder
 REPLACE INTO Dopey.Dopey_RNN_Res
                 (model_path, variant, seed, wrong_cnt, perfect_cnt, eligable_cnt, perfect_ratio, wrong_ratio, eligable_ratio, perfect_avg_len, wrong_avg_len, eligable_avg_len)
                 VALUES('NoConstEmb_C_0_D_1_E_1_M_-1_TrBSz_101_TeBSz_16_TrPer_1_Nr_5_s_1_TrNeg_0_N_1500_embD_64_embP_64_treeD_64_eN_50_sN_50_Th_0.7_Dr_0.5_Gm_-1.0_P_CAV_model_Dev_cuda-1705_15_03_10EpochES.pt', '_6counters_e8_371_e1_448.smt2.folder', '_6counters.smt2.folder', 169, 1207, 1, 0.8765432098765432, 0.12273057371096587, 0.0007262164124909223, 2.2850041425020713, 3.0, 2.0);
-Evaluating on  /home/nle/workspace/Doping_run_benchmark/lustre_all/_6counters.smt2.folder
+Evaluating on  /home/nle/workspace/Ropey_run_benchmark/lustre_all/_6counters.smt2.folder
 26
 [[31  0]
  [ 0 40]]

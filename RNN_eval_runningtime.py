@@ -11,7 +11,7 @@ import traceback
 import json
 TIMELIMIT = 930
 DEFAULT_MAX_LEVEL = 4294967295
-PROJECT_ROOT = '/home/nle/workspace/FreshRepos/Ropey'
+PROJECT_ROOT = '/home/wangzh/Ropey'
 class SpacerResult(Enum):
     SAT = 1
     UNSAT = 2
@@ -208,7 +208,7 @@ def spot_check(exp_folder, max_level, args):
     model = row[1]
     seed = row[0]
 
-    model_path = '/home/nle/workspace/Doping_run_benchmark/lustre_all/{}/models/{}'.format(seed, model)
+    model_path = '/home/nle/workspace/Ropey_run_benchmark/lustre_all/{}/models/{}'.format(seed, model)
 
     input_file_path = os.path.join(exp_folder, "input_file.smt2")
     print("Model:", model_path)

@@ -1,8 +1,8 @@
 import torch
 from model import Model
 from eval import *
-from Doping.utils.Dataset import DataObj
-from Doping.utils.utils import calculate_P
+from utils.Dataset import DataObj
+from utils.utils import calculate_P
 
 import argparse
 from flask import Flask, request, send_from_directory

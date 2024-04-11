@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
-from Doping.RNN_model import RNNModel
-from Doping.utils.RNN_Dataset import DataObj
+from RNN_model import RNNModel
+from utils.RNN_Dataset import DataObj
 import argparse
 import json
-import Doping.utils.utils as Du
+import utils.utils as Du
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 from enum import Enum
 
@@ -17,7 +17,8 @@ from pathlib import Path
 import traceback
 from datetime import datetime
 import mysql.connector
-from Doping.cred import cred
+import cred
+# from cred import cred
 def oJson(filename):
     with open(filename, "r") as f:
         data = json.load(f)
@@ -268,10 +269,10 @@ def evaluate(model, dataObj, datapart, test_bsz, writer = None, n = None, debug 
 
 def get_lustre_variants(test_folder, get_random_v = False):
     """
-    Given a test_folder of the form /home/nle/workspace/Doping/benchmarks/vmt-chc-benchmarks/lustre/SYNAPSE_1.smt2/ind_gen_file,
+    Given a test_folder of the form /home/nle/workspace/Ropey/benchmarks/vmt-chc-benchmarks/lustre/SYNAPSE_1.smt2/ind_gen_file,
     this function will first extract the SYNAPSE_1.smt2 part,
-    then find all variants of the form /home/nle/workspace/Doping/benchmarks/vmt-chc-benchmarks/lustre/SYNAPSE_1_*.smt2,
-    as well as all variants of the form /home/nle/workspace/Doping/benchmarks/vmt-chc-benchmarks/lustre/SYNAPSE_1.smt2/variant_*/input_file.smt2
+    then find all variants of the form /home/nle/workspace/Ropey/benchmarks/vmt-chc-benchmarks/lustre/SYNAPSE_1_*.smt2,
+    as well as all variants of the form /home/nle/workspace/Ropey/benchmarks/vmt-chc-benchmarks/lustre/SYNAPSE_1.smt2/variant_*/input_file.smt2
     """
     exp_folder = test_folder.parent.absolute()
     all_exp_folder = exp_folder.parent.absolute()

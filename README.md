@@ -1,4 +1,4 @@
-# Doping
+# Ropey
 Need https://github.com/nhamlv-55/PySpacerSolver clone in to the same folder. The folder should look like this
 ```
 .

@@ -305,4 +305,5 @@ dependencies:
     - zope-event==4.5.0
     - zope-interface==5.2.0
 prefix: /home/nle/anaconda3/envs/py38
+# PROJECT_ROOT = '/home/wangzh/Ropey'
 

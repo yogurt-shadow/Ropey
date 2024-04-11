@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from Doping.pytorchtreelstm.treelstm import TreeLSTM
-import Doping.pytorchtreelstm.treelstm.util as TLUtil
-import Doping.utils.utils as Du
+from pytorchtreelstm.treelstm import TreeLSTM
+import pytorchtreelstm.treelstm.util as TLUtil
+import utils.utils as Du
 import logging
 
 import math

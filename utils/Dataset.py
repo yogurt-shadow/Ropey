@@ -1,5 +1,5 @@
-import Doping.PySpacerSolver.utils as DPu
-from Doping.pytorchtreelstm.treelstm import batch_tree_input
+import PySpacerSolver.utils as DPu
+from pytorchtreelstm.treelstm import batch_tree_input
 import glob
 import json
 import torch
@@ -140,7 +140,7 @@ class DataObj:
 
 #test batching
 if __name__=="__main__":
-    dataObj = DataObj("/home/nv3le/workspace/Doping/PySpacerSolver/MEDIA/backward_encoded_split_on_relu.smt2_240220_23_54_17/ind_gen_files", train_size = 0.8, batch_size = 1024)
+    dataObj = DataObj("/home/nv3le/workspace/Ropey/PySpacerSolver/MEDIA/backward_encoded_split_on_relu.smt2_240220_23_54_17/ind_gen_files", train_size = 0.8, batch_size = 1024)
     train_set = set(dataObj.train_dps)
     test_set = set(dataObj.test_dps)
     intersection = train_set.intersection(test_set)

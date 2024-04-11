@@ -1,6 +1,6 @@
 import torch
 from model import Model
-from Doping.utils.Dataset import DataObj
+from utils.Dataset import DataObj
 import argparse
 
 def setup_model(model_path):

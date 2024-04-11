@@ -22,18 +22,18 @@ import indgen_conn_pb2
 import indgen_conn_pb2_grpc
 import glob
 import os
-import Doping.PySpacerSolver.spacer_solver as SS
+import PySpacerSolver.spacer_solver as SS
 import subprocess
 
-import Doping.PySpacerSolver.utils as DPu
-from Doping.PySpacerSolver.ExprDb import ExprDb
-from Doping.utils.utils import get_seed_file
+import PySpacerSolver.utils as DPu
+from PySpacerSolver.ExprDb import ExprDb
+from utils.utils import get_seed_file
 from RNN_eval import setup_model
 from six.moves import cStringIO
 
 import torch
 import torch.nn as nn
-from Doping.pytorchtreelstm.treelstm import batch_tree_input
+from pytorchtreelstm.treelstm import batch_tree_input
 import json
 
 #(lit_56, lit_55)

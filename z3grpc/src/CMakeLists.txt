@@ -212,7 +212,7 @@ if (Z3_BUILD_GRPC)
   # so that if those are also shared libraries they are referenced by `libz3.so`.
 
   # Proto file
-  get_filename_component(ic_proto "../../../workspace/Doping/protos/indgen_conn.proto" ABSOLUTE)
+  get_filename_component(ic_proto "../../../workspace/Ropey/protos/indgen_conn.proto" ABSOLUTE)
   get_filename_component(ic_proto_path "${ic_proto}" PATH)
 
   set(ic_proto_srcs "${CMAKE_CURRENT_BINARY_DIR}/indgen_conn.pb.cc")
