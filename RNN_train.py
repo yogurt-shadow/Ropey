@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import utils.utils as Du
 from RNN_eval import evaluate, plot_tsne, plot_weight_tfboard
 
+torch.backends.cudnn.enabled = False
 PRETRAIN_EPC = 100 #turn off the token emb for how many iterations?
 EARLY_STOPPING_COUNT = 5
 def save_model(model_path, model, optimizer, dataObj):

@@ -84,6 +84,7 @@ def plot_tsne(model, vocab, title, n=-1):
     sort_emb_w = model.lemma_encoder.sort_emb.weight.detach().cpu()
 
     tsne = TSNE(2)
+    emb_w = np.array(emb_w)
     tsne_proj = tsne.fit_transform(emb_w)
 
     sort_tsne = TSNE(2)

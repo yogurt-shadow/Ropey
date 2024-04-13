@@ -29,3 +29,25 @@ The models are saved to a `model` folder where the code is run.
 Before running, please make sure the `PROJECT_ROOT` variable in `RNN_eval_runningtime.py` is set correctly
 
 `python RNN_eval_runningtime.py --test_folder _6counters.smt2.folder/ind_gen_files --gs_model_path _6counters.smt2.folder/models/getting_started.pt --getting_started`
+
+## Conda Environment for yogurt-shadow
+`self_env.yaml`
+
+
+### Packages
+```bash
+# mysql
+pip install pymysql
+pip install mysql-connector-python
+
+# cred
+git clone https://github.com/HenriquedoVal/cred.git
+cd cred
+pip install .
+```
+
+cuda version: 11.7
+```bash
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+```
+<!-- pytorch version: 2.1.1+cu121 -->
