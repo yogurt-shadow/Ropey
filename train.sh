@@ -1,0 +1,1 @@
+nohup python3 RNN_train.py -JI exp_config_getting_started.json > train_log.txt 2>&1 &

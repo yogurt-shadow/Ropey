@@ -1,0 +1,50 @@
+nohup: ignoring input
+['/home/wangzh/Ropey/z3grpc/build/z3', 'fp.spacer.dump_benchmarks=true', 'fp.spacer.dump_threshold=99999', 'fp.spacer.use_expansion=false', 'fp.spacer.arith.solver=6', 'fp.print_statistics=true', 'fp.spacer.use_h_inductive_generalizer=42', 'fp.spacer.use_inductive_generalizer=false', 'fp.spacer.grpc_host_port=localhost:40042', 'fp.validate=true', '-v:1', '-T:930', 'fp.spacer.max_level=4294967295', '/home/wangzh/Ropey/_6counters.smt2.folder/input_file.smt2']
+{'variant': 'spotcheck', 'stderr': {'total_time': 0.01, 'total_time_inside': 0.01, 'ind_gen_time': 930, 'ind_gen_total': 930, 'ind_gen_outside': 0, 'n_request': -1, 'n_response': -1, 'n_correct': -1, 'decisions': -1, 'time.pool_solver.smt.total': 0.0, 'depth': 1, 'enter_level': 1, 'n_lemmas': 1, 'indgen_fail': 6000}, 'stdout': {'res': 'None'}}
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0.002s)
+(transform N7datalog27mk_quantifier_instantiationE...no-op 0s)
+(transform N7datalog8mk_scaleE...no-op 0s)
+(transform N7datalog18mk_karr_invariantsE...no-op 0s)
+(transform N7datalog14mk_array_blastE...no-op 0s)
+(transform N7datalog16mk_elim_term_iteE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog12mk_bit_blastE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog8mk_sliceE...no-op 0s)
+expand: query!0 (0, 0) FAR  w(0) 1. F 0.01
+(spacer::context::check_reachability :time 0.01 :before-memory 4.12 :after-memory 4.33)
+Entering level 1
+(:SPACER-max-depth           1
+ :SPACER-num-active-lemmas   1
+ :SPACER-num-lemmas          1
+ :SPACER-num-pobs            1
+ :arith-rows                 16
+ :conflicts                  2
+ :mk-bool-var                106
+ :mk-clause                  156
+ :num-checks                 2
+ :pool_solver.checks         1
+ :propagations               2
+ :time.iuc_solver.get_iuc    0.00
+ :time.pool_solver.smt.total 0.00
+ :time.spacer.init_rules     0.00
+ :time.spacer.solve          0.01
+ :time.spacer.solve.reach    0.01)
+expand: query!0 (1, 0) FAR  w(0) 1.
+	create_child: state (0, 1) FAR 772 U 0.00
+expand: state (0, 0) FAR  w(0) 772.
+
